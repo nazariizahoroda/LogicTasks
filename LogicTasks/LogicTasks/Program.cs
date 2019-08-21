@@ -10,6 +10,8 @@ namespace LogicTasks
     {
         static void Main(string[] args)
         {
+
+            Console.ReadLine();
         }
     }
 }
