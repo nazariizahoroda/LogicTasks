@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LogicTasks
 {
@@ -10,6 +6,9 @@ namespace LogicTasks
     {
         static void Main(string[] args)
         {
+            var minimal = new MinimalInteger();
+            Console.WriteLine(minimal.MinimalNumber(36));
+            Console.ReadKey();
         }
     }
 }
